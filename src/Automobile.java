@@ -6,6 +6,7 @@ public class Automobile {
     String color;
     int year;
     String country;
+    Automobile[] car;
 
     Automobile(String brand, String model, int year, String country, String color, float engineVolume) {
         this.brand = brand;
